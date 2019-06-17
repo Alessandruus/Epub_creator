@@ -35,6 +35,7 @@ cpan install LWP::Simple
 ```
 Attendez que l'installation ce termine.
 
+
 Sur mac : ouvrez l'invite de commande (ou Terminal)
 (depuis la barre de recherche en haut à droite tapez Terminal et cliquer sur l'application pour l'ouvrir).
 
@@ -45,6 +46,7 @@ cpan LWP::Simple
 ```
 Attendez que l'installation ce termine.
 
+
 Sur Linux : ouvrez l'invite de commande via le raccourci Ctrl+Alt+T 
 ou bien cliquer dans vos programme sur l'application Terminal.
 
@@ -54,6 +56,7 @@ Ecrivez la ligne suivante :
 cpan LWP::Simple
 ```
 Attendez que l'installation ce termine.
+
 
 ## Lancez Epub_creator
 
@@ -79,15 +82,18 @@ Nous écrivons : cd desktop
 C:\Users\aless>cd desktop
 ```
 
+
 Puis : cd Epub_creator-master (nom de notre archive dézippée).
 ```
 C:\Users\aless\Desktop>cd Epub_creator-master
 ```
 
+
 Enfin nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
 ```
 C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
 ```
+
 
 Si le programme est correctement lancé ![la page d'accueil](Images/Page d'accueil.PNG) doit être apparue.
 
@@ -182,39 +188,46 @@ La sélection se termine ici, l'utilisateur peut choisir :
 
 Enfin il est proposé à l'utilisateur de convertir/rechercher de nouvelle fanfiction s'il le désire.
 
-### And coding style tests
+## Version et futur développement
 
-Explain what these tests test and why
+Epub_creator - version 1.0
+Problèmes connus et caractéristiques :
+    
+    - Version fonctionnelle dans 98% des cas, il est possible qu'un fanfiction téléchargée soit vide 
+    une fois convertie au format epub. La raison étant que chaque auteur de fanfiction a ses propres conventions.
+    Et que la page HTML ne respecte donc plus les formats standards ce qui empêche au programme de fonctionne correctement.
+    
+    - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques (comme l'arabe ou le chinois).
+    Nous avons donc traduit les noms des langues en anglais.
+    
+    - Si la fanfiction possède un nom avec des caractères inconnus, le nom du fichier téléchargé pourrait être étrange
+    mais la fanfiction elle-même sera tout à fait lisible.
+    
+    - Le programme ne peut se lancer via un executable (.exe) mais exclusivement via l'invite de commande.
+    
+    - Le temps de téléchargement et de conversion qui peut être conséquent dans le cas de longue fanfiction
+    (de 2 secondes pour une fanfiction composée de un chapitre et 1200 mots et jusqu'à 6 minutes pour une fanfiction 
+    de 300 chapitres et 263 336 mots).
+    
+Developpement futur :
 
-```
-Give an example
-```
+    - Créer un site internet du programme actuel. 
+    L'idée serait de pouvoir convertir en ligne et télécharger au format epub les fanfictions de notre choix. 
+    
+    (Nous avons essayé de le réaliser dans la version 1.0 cependant notre serveur refuse d'exécuter un script perl
+    même en passant via putty ou via une page web en autorisant au préalable à l'aide d'un fichier .htaccess l'exécution
+    d'un script cgi ; nous obtenons pour seul résultat une page web avec l'erreur 403 Forbidden.)
+    
+    - Pour la version invite de commande ou en ligne, ajout d'une barre de progression qui permet de donner une idée 
+    de l'avancée de la conversion. (Nous avons tenté de réaliser cela via un multithread sans grand succès jusqu'ici.)
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
+## Auteur
 
 * **Alessandro Cierro** - *LFIAL2630 - Méthodologie du traitement automatique des données textuelles* - Alessandro.Cierro@uclouvain.be
 
 ## Licence
 
-Ce programme est sous "licence artistique" (the Artistic License) - les informations complètes sont disponibles ici : https://dev.perl.org/licenses/artistic.html
+Ce programme est sous "licence artistique" (the Artistic License) - les informations complètes sont disponibles ici : [https://dev.perl.org/licenses/artistic.html](https://dev.perl.org/licenses/artistic.html)
 
 Voici des extraits de la licence artistique : 
 
