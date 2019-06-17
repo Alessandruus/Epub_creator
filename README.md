@@ -130,7 +130,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
      9 Hobbit               --    10 Chronicles of Narnia    --   11 Phantom of the Opera  --    12 Gossip Girl
     13 Outsiders            --    14 A song of Ice and Fire  --   15 Vampire Academy       --    16 Divergent
     17 Song of the Lioness  --    18 Inheritance Cycle       --   19 Silmarillion          --    20 Artemis Fowl
-    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --    24 Pride and Prejudice
+    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --    24 Pride & Prejudice
     25 Gallagher Girls      --    26 Les Misérables          --   27 Bible                 --    28 Sherlock Holmes
     29 Alex Rider           --    30 Clique                  --   31 Vampires              --    32 Fifty Shades
     
@@ -182,11 +182,10 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       
 La sélection se termine ici, l'utilisateur peut choisir :
 
-    - Soit de télécharger les fanfictions directement 
-    (en indiquant le nombre de fanfiction qu'il désire télécharger de
-    1 au nombre de résultat correspondant à sa recherche).
-    - Soit de parcourir une sélection des résumés/descriptions des fanfictions 
-    correspondant à sa recherche. (Maximum 25)
+    - Soit de télécharger les fanfictions directement (en indiquant le nombre de fanfiction qu'il désire 
+    télécharger de 1 au nombre de résultat correspondant à sa recherche).
+    - Soit de parcourir une sélection des résumés/descriptions des fanfictions correspondant à sa recherche. 
+    (Maximum 25)
 
 Enfin il est proposé à l'utilisateur de convertir/rechercher de nouvelle fanfiction s'il le désire.
 
@@ -197,10 +196,10 @@ Problèmes connus et caractéristiques :
     
     - Version fonctionnelle dans 98% des cas, il est possible qu'une fanfiction téléchargée soit vide 
     une fois convertie au format epub. La raison étant que chaque auteur de fanfiction a ses propres conventions.
-    Et que la page HTML ne respecte donc plus les formats standards ce qui empêche au programme de fonctionner 
+    Et que la page HTML ne respecte donc plus les formats standards ce qui empêche au programme de fonctionner
     correctement.
     
-    - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques (comme l'arabe ou le chinois).
+    - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques (comme le chinois).
     Nous avons donc traduit les noms des langues en anglais.
     
     - Si la fanfiction possède un nom avec des caractères inconnus, le nom du fichier téléchargé pourrait 
