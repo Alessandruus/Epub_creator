@@ -59,7 +59,7 @@ Attendez que l'installation ce termine.
 
 Explain how to run the automated tests for this system
 
-(/Images/page d'acceuil.PNG)
+[Contribution guidelines for this project](/Images/page d'acceuil.PNG)
 
 
 
