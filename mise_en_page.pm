@@ -204,7 +204,7 @@ sub correction_epub {
     
     # le code html <hr size=1 noshade> représente une ligne de séparation 
     # Elle crée des problèmes une fois convertie en epub.
-    # Nous les remplaçons donc par trois ✦ bien centrés
+    # Nous les remplaçons donc par ***** bien centrés
     
     $page =~ s/<hr size=1 noshade>/<center>*****<\/center>/g; 
     
