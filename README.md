@@ -125,41 +125,41 @@ L'utilisateur en choisissant l'option 2 ne possède pas d'URL précis.
 Les questions suivantes lui seront posées et en fonction des réponses des fanfictions spécifiques seront proposées.
 
     Question 1) Choix de l'univers :
-     1 Harry Potter         --     2 Twilight                --    3 Lord of the Rings     --     4 Percy Jackson
-     5 Hunger Games         --     6 Warriors                --    7 Mortal Instruments    --     8 Maximum Ride
-     9 Hobbit               --    10 Chronicles of Narnia    --   11 Phantom of the Opera  --    12 Gossip Girl
-    13 Outsiders            --    14 A song of Ice and Fire  --   15 Vampire Academy       --    16 Divergent
-    17 Song of the Lioness  --    18 Inheritance Cycle       --   19 Silmarillion          --    20 Artemis Fowl
-    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --    24 Pride & Prejudice
-    25 Gallagher Girls      --    26 Les Misérables          --   27 Bible                 --    28 Sherlock Holmes
-    29 Alex Rider           --    30 Clique                  --   31 Vampires              --    32 Fifty Shades
+     1 Harry Potter         --     2 Twilight                --    3 Lord of the Rings     --    4 Percy Jackson
+     5 Hunger Games         --     6 Warriors                --    7 Mortal Instruments    --    8 Maximum Ride
+     9 Hobbit               --    10 Chronicles of Narnia    --   11 Phantom of the Opera  --   12 Gossip Girl
+    13 Outsiders            --    14 A song of Ice and Fire  --   15 Vampire Academy       --   16 Divergent
+    17 Song of the Lioness  --    18 Inheritance Cycle       --   19 Silmarillion          --   20 Artemis Fowl
+    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --   24 Pride & Prejudice
+    25 Gallagher Girls      --    26 Les Misérables          --   27 Bible                 --   28 Sherlock Holmes
+    29 Alex Rider           --    30 Clique                  --   31 Vampires              --   32 Fifty Shades
     
     Question 2) Choix de la langue de la fanfiction :
-      1 English             --     2 Español                 --    3 Français              --     4 Deutsch
-      5 Chinese             --     6 Japanese                --    7 Nederlands            --     8 Português
-      9 Italiano            --    10 Język polski            --   11 Magyar                --    12 Abrit
-     13 Svenska             --    14 Norsk                   --   15 Dansk                 --    16 Suomi
-     17 Filipino            --    18 Esperanto               --   19 Hindi                 --    20 Ελληνικά
-     21 Română              --    22 Shqip                   --   23 српски                --    24 Türkçe
-     25 čeština             --    26 Bahasa Indonesia        --   27 Hrvatski jezik        --    28 Català
-     29 LINGUA LATINA       --    30 Korean                  --   31 Tiếng Việt            --    32 Thai Language
-     33 Íslenska            --    34 Eesti                   --   35 Bahasa Melayu         --    36 Slovenčina
-     37 Українська          --    38 Afrikaans               --   39 Persian               --    39 AUCUN CHOIX
+      1 English             --     2 Español                 --    3 Français              --    4 Deutsch
+      5 Chinese             --     6 Japanese                --    7 Nederlands            --    8 Português
+      9 Italiano            --    10 Język polski            --   11 Magyar                --   12 Abrit
+     13 Svenska             --    14 Norsk                   --   15 Dansk                 --   16 Suomi
+     17 Filipino            --    18 Esperanto               --   19 Hindi                 --   20 Ελληνικά
+     21 Română              --    22 Shqip                   --   23 српски                --   24 Türkçe
+     25 čeština             --    26 Bahasa Indonesia        --   27 Hrvatski jezik        --   28 Català
+     29 LINGUA LATINA       --    30 Korean                  --   31 Tiếng Việt            --   32 Thai Language
+     33 Íslenska            --    34 Eesti                   --   35 Bahasa Melayu         --   36 Slovenčina
+     37 Українська          --    38 Afrikaans               --   39 Persian               --   39 AUCUN CHOIX
      
      Question 3) Choix du premier genre de la fanfiction :
-      0 AUCUN CHOIX         --     1 Romance                 --    2 Humour                --  3 Drame
-      4 Poésie              --     5 Aventure                --    6 Mystère               --  7 Horreur
-      8 Parodie             --     9 Angoisse                --   10 Supernaturel          -- 11 Suspense
-     12 Science-fiction     --    13 Fantastique             --   14 Spirituel             -- 15 Tragédie
-     16 Western             --    17 Crime                   --   18 Famille               -- 19 Hurt/Comfort
+      0 AUCUN CHOIX         --     1 Romance                 --    2 Humour                --    3 Drame
+      4 Poésie              --     5 Aventure                --    6 Mystère               --    7 Horreur
+      8 Parodie             --     9 Angoisse                --   10 Supernaturel          --   11 Suspense
+     12 Science-fiction     --    13 Fantastique             --   14 Spirituel             --   15 Tragédie
+     16 Western             --    17 Crime                   --   18 Famille               --   19 Hurt/Comfort
      20 Amitié              --    21 Général
     
      Question 4) Choix du second genre de la fanfiction :
-      0 AUCUN CHOIX         --     1 Romance                 --    2 Humour                --  3 Drame
-      4 Poésie              --     5 Aventure                --    6 Mystère               --  7 Horreur
-      8 Parodie             --     9 Angoisse                --   10 Supernaturel          -- 11 Suspense
-     12 Science-fiction     --    13 Fantastique             --   14 Spirituel             -- 15 Tragédie
-     16 Western             --    17 Crime                   --   18 Famille               -- 19 Hurt/Comfort
+      0 AUCUN CHOIX         --     1 Romance                 --    2 Humour                --    3 Drame
+      4 Poésie              --     5 Aventure                --    6 Mystère               --    7 Horreur
+      8 Parodie             --     9 Angoisse                --   10 Supernaturel          --   11 Suspense
+     12 Science-fiction     --    13 Fantastique             --   14 Spirituel             --   15 Tragédie
+     16 Western             --    17 Crime                   --   18 Famille               --   19 Hurt/Comfort
      20 Amitié              --    21 Général
 
     Question 5) Choix du [Rating](https://www.fictionratings.com/) de la fanfiction :
