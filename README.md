@@ -89,7 +89,7 @@ Enfin nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
 C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
 ```
 
-Si le programme est correctement lancé [la page d'accueil](Images/Page d'accueil.PNG) doit être apparue.
+Si le programme est correctement lancé ![la page d'accueil](Images/Page d'accueil.PNG) doit être apparue.
 
 Vous pouvez commencer à utiliser le programme.
 
@@ -107,7 +107,7 @@ L'utilisateur peut aussi, quand cela lui est proposé, écrire "retour" ou "!" p
 
 1ère option d'utilisation : 
 L'utilisateur peut copier-coller de la fanfiction de son choix 
-(provenant de [www.fanfiction.net](www.fanfiction.net) et en respectant le format suivant : https://www.fanfiction.net/xxxxxxxx/1/nom-de-la-fanfiction-de-votre-choix).
+(provenant de [www.fanfiction.net](https://www.fanfiction.net) et en respectant le format suivant : https://www.fanfiction.net/xxxxxxxx/1/nom-de-la-fanfiction-de-votre-choix).
 
 Une fois l'URL copié et soumis au programme, Epub_creator télécharge et converti la fanfiction au format epub. 
 La/les fanfiction(s) téléchargée(s) sera/seront disponible(s) dans le dossier où se trouve Epub_creator.pl.
@@ -117,7 +117,7 @@ L'utilisateur en choisissant l'option 2 ne possède pas d'URL précis.
 Les questions suivantes lui seront posées et en fonction des réponses des fanfictions spécifiques seront proposées.
 
     Question 1) Choix de l'univers :
-     1 Harry Potter         --     2 Twilight                --     3 Lord of the Rings     --     4 Percy Jackson and the Olympians
+     1 Harry Potter         --     2 Twilight                --     3 Lord of the Rings     --     4 Percy Jackson
      5 Hunger Games         --     6 Warriors                --     7 Mortal Instruments    --     8 Maximum Ride
      9 Hobbit               --    10 Chronicles of Narnia    --    11 Phantom of the Opera  --    12 Gossip Girl
     13 Outsiders            --    14 A song of Ice and Fire  --    15 Vampire Academy       --    16 Divergent Trilogy
@@ -143,7 +143,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       4 Poésie              --     5 Aventure                --     6 Mystère               --  7 Horreur
       8 Parodie             --     9 Angoisse                --    10 Supernaturel          -- 11 Suspense
      12 Science-fiction     --    13 Fantastique             --    14 Spirituel             -- 15 Tragédie
-     16 Western             --    17 Crime                   --    18 Famille               -- 19 Hurt/Comfort (contenu explicit)
+     16 Western             --    17 Crime                   --    18 Famille               -- 19 Hurt/Comfort
      20 Amitié              --    21 Général
     
      Question 4) Choix du second genre de la fanfiction :
@@ -151,7 +151,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       4 Poésie              --     5 Aventure                --     6 Mystère               --  7 Horreur
       8 Parodie             --     9 Angoisse                --    10 Supernaturel          -- 11 Suspense
      12 Science-fiction     --    13 Fantastique             --    14 Spirituel             -- 15 Tragédie
-     16 Western             --    17 Crime                   --    18 Famille               -- 19 Hurt/Comfort (contenu explicit)
+     16 Western             --    17 Crime                   --    18 Famille               -- 19 Hurt/Comfort
      20 Amitié              --    21 Général
 
     Question 5) Choix du [Rating](https://www.fictionratings.com/) de la fanfiction :
@@ -168,15 +168,17 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       3 Toutes les fanfictions disponibles
      
      Question 7) Choix de la taille de la fanfiction :
-      1 Moins de  1000 mots   --   2 Moins de  5000 mots    --     3 Plus de   1000 mots     --  4 Plus de   5000 mots
-      5 Plus de 10 000 mots   --   6 Plus de 20 000 mots    --     7 Plus de 40 000 mots     --  8 Plus de 60 000 mots
+      1 Moins de  1000 mots   --   2 Moins de  5000 mots   --   3 Plus de   1000 mots     --  4 Plus de   5000 mots
+      5 Plus de 10 000 mots   --   6 Plus de 20 000 mots   --   7 Plus de 40 000 mots     --  8 Plus de 60 000 mots
       9 Plus de 60 000 mots   --  10 Toutes les tailles. 
       
 La sélection se termine ici, l'utilisateur peut choisir :
 
-    - Soit de télécharger les fanfictions directement (en indiquant le nombre de fanfiction qu'il désire télécharger 
-    de 1 au nombre de résultat correspondant à sa recherche).
-    - Soit de parcourir une sélection des résumés/descriptions des fanfictions correspondant à sa recherche. (Maximum 25)
+    - Soit de télécharger les fanfictions directement 
+    (en indiquant le nombre de fanfiction qu'il désire télécharger de
+    1 au nombre de résultat correspondant à sa recherche).
+    - Soit de parcourir une sélection des résumés/descriptions des fanfictions 
+    correspondant à sa recherche. (Maximum 25)
 
 Enfin il est proposé à l'utilisateur de convertir/rechercher de nouvelle fanfiction s'il le désire.
 
