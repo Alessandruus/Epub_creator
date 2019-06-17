@@ -162,7 +162,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
      16 Western             --    17 Crime                   --   18 Famille               --   19 Hurt/Comfort
      20 Amitié              --    21 Général
 
-    Question 5) Choix du [Rating](https://www.fictionratings.com/) de la fanfiction :
+    Question 5) Choix du Rating (https://www.fictionratings.com/) de la fanfiction :
       1 Rating K  : convient à tous les âges.
       2 Rating K+ : convient à partir de 9 ans et +.
       3 Rating T  : convient à partir de 13 ans et +.
