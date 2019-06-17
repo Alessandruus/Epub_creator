@@ -95,7 +95,9 @@ C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
 ```
 
 
-Si le programme est correctement lancé ![la page d'accueil](Images/Page_accueil.png) doit être apparue.
+Si le programme est correctement lancé ceci doit être apparue :
+
+![la page d'accueil](Images/Page_accueil.png) 
 
 Vous pouvez commencer à utiliser le programme.
 
@@ -274,6 +276,7 @@ Package.
 IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
 WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
    
-                                                                                                                                        
-                                                                                                                                        
+## Le mot de la fin
+
+![la page d'accueil](Images/bonne_lecture.png                                                                                                                                      
                                                                                                      
