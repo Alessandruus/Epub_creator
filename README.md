@@ -273,15 +273,7 @@ Package.
 10. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
 IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
 WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
-## Le mot de la fin
-
-______                                _              _                        _  
-| ___ \                              | |            | |                      | | 
-| |_/ /  ___   _ __   _ __    ___    | |  ___   ___ | |_  _   _  _ __  ___   | | 
-| ___ \ / _ \ | '_ \ | '_ \  / _ \   | | / _ \ / __|| __|| | | || '__|/ _ \  | | 
-| |_/ /| (_) || | | || | | ||  __/   | ||  __/| (__ | |_ | |_| || |  |  __/  |_| 
-\____/  \___/ |_| |_||_| |_| \___|   |_| \___| \___| \__| \__,_||_|   \___|  (_)      
+   
                                                                                                                                         
                                                                                                                                         
                                                                                                      
