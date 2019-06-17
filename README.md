@@ -89,7 +89,7 @@ Enfin nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
 C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
 ```
 
-Si le programme est correctement lancé [la page d'accueil](/Images/acceuil.png) doit être apparue.
+Si le programme est correctement lancé [la page d'accueil](Images/Page d'accueil.PNG) doit être apparue.
 
 Vous pouvez commencer à utiliser le programme.
 
