@@ -176,9 +176,9 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       3 Toutes les fanfictions disponibles
      
      Question 7) Choix de la taille de la fanfiction :
-      1 Moins de  1000 mots   --   2 Moins de  5000 mots   --  3 Plus de   1000 mots   --  4 Plus de   5000 mots
-      5 Plus de 10 000 mots   --   6 Plus de 20 000 mots   --  7 Plus de 40 000 mots   --  8 Plus de 60 000 mots
-      9 Plus de 60 000 mots   --  10 Toutes les tailles. 
+      1 Moins de   1000 mots   --   2 Moins de  5000 mots   --  3 Plus de   1000 mots   --  4 Plus de   5000 mots
+      5 Plus de  10 000 mots   --   6 Plus de 20 000 mots   --  7 Plus de 40 000 mots   --  8 Plus de 60 000 mots
+      9 Plus de 100 000 mots   --  10 Toutes les tailles. 
       
 La sélection se termine ici, l'utilisateur peut choisir :
 
