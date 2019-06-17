@@ -59,6 +59,8 @@ Attendez que l'installation ce termine.
 
 Explain how to run the automated tests for this system
 
+(Master/page d'acceuil.PNG)
+
 
 
 ### Break down into end to end tests
