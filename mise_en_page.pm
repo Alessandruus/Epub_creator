@@ -49,7 +49,7 @@ sub afficher_zero {
     print "\n\n======================================================================";
     print   "\n======================================================================";
     print   "\n           Aucun résultat n'a été trouvé avec vos critères            ";
-    print   "\n                Veuillez élargir votre selection                      ";
+    print   "\n                Veuillez élargir votre sélection                      ";
     print   "\n======================================================================";
     print   "\n======================================================================";
     print   "\n                      Vos critères actuels :                          ";
@@ -175,18 +175,17 @@ sub fini {
     
 }
 
-# Nous profitons de ce module mise en page pour corriger l'HTML.
+# Nous profitons de ce module "mise en page" pour corriger l'HTML.
 # Il y a de nombreuses variations sur le site fanfiction.net à capturer et uniformiser.
 # Cette sous-routine modifie les balises HTML pour qu'elles soient lisibles par notre epub.
-# Il est possible que des variations que nous n'avons pas rencontrés
+# Il est possible que des variations que nous n'avons pas rencontrées
 # lors de la réalisation de ce programme subsistent.
 #
 # En voici les symptômes : epub contenant des chapitres incomplets, ou des phrases qui s'arrêtent
 # en cours de route.
 #
-# Si ce genre d'irrégularités subsistent, en rajoutant des conditions ici, le problème disparaitra.
+# Si ce genre d'irrégularités subsiste, en rajoutant des conditions ici le problème disparaitra.
 sub correction_epub {
-
     my $page = $_[0];
         
     # Remplacer les majuscules en minuscules dans les balises.
@@ -204,7 +203,7 @@ sub correction_epub {
   
     
     # le code html <hr size=1 noshade> représente une ligne de séparation 
-    # Elle crée des problème une fois convertie en epub.
+    # Elle crée des problèmes une fois convertie en epub.
     # Nous les remplaçons donc par trois ✦ bien centrés
     
     $page =~ s/<hr size=1 noshade>/<center>✦✦✦<\/center>/g; 
