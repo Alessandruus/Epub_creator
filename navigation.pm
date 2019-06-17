@@ -859,9 +859,9 @@ while ($etape < 10){
         # Nous proposons à l'utilisateur de choisir la taille des fanfictions de son choix.
             print "\n\nTapez le nombre correspondant ou bien écrivez \"retour\" ou \"!\" pour revenir au choix précédent.\n";
             print "\nChoisissez la taille de votre choix.\n";
-            print "\n 1 Moins de  1000 mots    --   2 Moins de  5000 mots   --   3 Plus de   1000 mots  --  4 Plus de   5000 mots";
-            print "\n 5 Plus de 10 000 mots    --   6 Plus de 20 000 mots   --   7 Plus de 40 000 mots  --  8 Plus de 60 000 mots";
-            print "\n 9 Plus de 60 000 mots    --  10 Toutes les tailles. \n\n";
+            print "\n 1 Moins de   1000 mots    --   2 Moins de  5000 mots   --   3 Plus de   1000 mots  --  4 Plus de   5000 mots";
+            print "\n 5 Plus de  10 000 mots    --   6 Plus de 20 000 mots   --   7 Plus de 40 000 mots  --  8 Plus de 60 000 mots";
+            print "\n 9 Plus de 100 000 mots    --  10 Toutes les tailles. \n\n";
             mise_en_page::espace;
             print "\nVotre réponse : ";
             my  $reponse =<STDIN>;
