@@ -114,6 +114,7 @@ while($loop <2){
   chomp($choix1bis);
  
   if ($choix1bis eq 'oui') {
+    $navigation::etape = -1;
         $loop =0;
         mise_en_page::espace;
     }
