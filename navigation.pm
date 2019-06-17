@@ -22,19 +22,19 @@ my $taille = '&len=0';
 my $critere6 = 'À définir';
 
 
-my $etape = -1;
+our $etape = -1;
 my $etape_en_cours;
 my $continuer = 1;
 
 sub question {
-# Cette sous-routine même si longue est assez simple et répétitive :   
+# Cette sous-routine, même si longue, est assez simple et répétitive :   
 # une série de questions est posée à l'utilisateur, et en fonction le programme 
-# va récupérer le nombre de fanfictions correspondant disponibles.
+# va récupérer le nombre correspondant de fanfictions disponibles.
 
 # En fonction des critères l'URL se modifie et permet de préciser la recherche.
-# la sélection aboutie il est possible de soit :
-# 1 - télécharger "à l'aveugle" un nombre choisi de fanfiction. (Attention que la manoeuvre peut prendre un certain temps.)
-# 2 - Découvrir une description pour les 25 premières fanfictions correspondant
+# la sélection aboutie, il est possible de :
+# 1 - soit télécharger "à l'aveugle" un nombre choisi de fanfictions (attention, la manoeuvre peut prendre un certain temps).
+# 2 - soit découvrir une description pour les 25 premières fanfictions correspondant
 #     aux critères et de là choisir de les télécharger ou non.
     
 while ($etape < 10){
@@ -201,8 +201,8 @@ while ($etape < 10){
         $langue = '';
         $critere1 = '';
         # Nous proposons à l'utilisateur de choisir la langue de la lecture.    
-        # Malheureusement les caractères multinlangues comme עברית ou 日本語
-        # n'apparaissent pas dans la console avec la police Consolas, nous les traduisons en anglais.
+        # Malheureusement, les caractères multilangues comme עברית ou 日本語
+        # n'apparaissent pas dans la console avec la police Consolas ; nous les traduisons en anglais.
         print "\n\nTapez le nombre correspondant ou bien écrivez \"retour\" ou \"!\" pour revenir au choix précédent.\n\n";
         print "\nDans quelle langue désirez-vous lire votre fanfiction ?\n\n";
         print "\n  1 English        --     2 Español           --     3 Français         --     4 Deutsch";
@@ -428,7 +428,7 @@ while ($etape < 10){
            $etape++;
        }
            else {
-        print "Votre réponse est incorrect, veuillez recommencer.\n";
+        print "Votre réponse est incorrecte, veuillez recommencer.\n";
         $etape = 0; 
         }
     }          
@@ -590,10 +590,10 @@ while ($etape < 10){
              $critere2 = 'Pas de genre spécifique';
              $critere3 = 'Pas de genre spécifique';
              $etape = 3; # Nous sautons à l'étape 3 car nous estimons que si l'utilisateur
-                         # ne possède pas de préférence de genre ici, ce sera le cas pour la question suivant aussi.
+                         # ne possède pas de préférence de genre ici, ce sera le cas pour la question suivante aussi.
          }
          else {
-              print "Votre réponse est incorrect, veuillez recommencer.\n"; 
+              print "Votre réponse est incorrecte, veuillez recommencer.\n"; 
           }
         }
     }
@@ -733,7 +733,7 @@ while ($etape < 10){
             $etape++;
         }
         else {
-         print "Votre réponse est incorrect, veuillez recommencer.\n";
+         print "Votre réponse est incorrecte, veuillez recommencer.\n";
          }
     }
  }
@@ -746,9 +746,9 @@ while ($etape < 10){
         if ($etape == 3){ 
             print "\n\nQuelle catégorie de fanfiction cherchez-vous?\n";
             print "\nIl existe des catégories en fonction du contenu de la fanfiction";
-            print "\npar exemple : si la fanfiction contient du contenu violant";
+            print "\npar exemple : si la fanfiction contient du contenu violent";
             print "\nelle ne sera pas recommandée aux enfants (-16 ans).";
-            print "\n\nPlus d'information ici : https://www.fictionratings.com/.";
+            print "\n\nPlus d'informations ici : https://www.fictionratings.com/.";
         
             print "\n\nTapez le nombre correspondant ou bien écrivez \"retour\" ou \"!\" pour revenir au choix précédent.\n";
             print "\n0 Pas de choix de rating.";
@@ -803,12 +803,12 @@ while ($etape < 10){
                 $etape++;
            }
             else {
-                print "Votre réponse est incorrect, veuillez recommencer.\n";
+                print "Votre réponse est incorrecte, veuillez recommencer.\n";
             }
         }
     }      
     if ($etape == 4){
-        # Nous proposons à l'utilisateur de choisir le status des fanfictions de son choix.
+        # Nous proposons à l'utilisateur de choisir le statut des fanfictions de son choix.
         $status ='&s=0';
         $critere5 ='';
 
@@ -844,7 +844,7 @@ while ($etape < 10){
                 $etape++;
            }
             else {
-                print "Votre réponse est incorrect, veuillez recommencer.\n";
+                print "Votre réponse est incorrecte, veuillez recommencer.\n";
             }
         }            
     }          
@@ -952,12 +952,12 @@ while ($etape < 10){
                 mise_en_page::petit_espace;
                 mise_en_page::finderecherche ($nombrederesultats);
                 mise_en_page::petit_espace;
-                print "Combien de fanfiction voulez-vous télécharger de fanfictions?\n";
+                print "Combien de fanfiction(s) voulez-vous télécharger de fanfictions?\n";
                 print "\nTapez le nombre de votre choix ou bien écrivez \"retour\" ou \"!\" pour revenir au choix précédent.";
                 mise_en_page::espace;
                 print "\nVotre réponse : ";
                 
-                my   $reponse =<STDIN>; # L'utilisateur introduit le nombre de fanfiction à téléchargerqui
+                my   $reponse =<STDIN>; # L'utilisateur introduit le nombre de fanfictions à télécharger qui
                                         # correspond à ses critères
                 chomp $reponse;
                 if ($reponse =~ /[0-9]+/) {               
@@ -965,7 +965,7 @@ while ($etape < 10){
                     print "\nLancement des téléchargements des epubs.";
                     print "\nAttention, cette étape peut prendre un certain temps.";
                     mise_en_page::petit_espace;
-                    module_epub::get_all_epub ("$URL", "$reponse"); # Lancement des téléchargement au format epub.
+                    module_epub::get_all_epub ("$URL", "$reponse"); # Lancement des téléchargements au format epub.
                     mise_en_page::fini;
                     $etape = 10;
                }
@@ -974,14 +974,14 @@ while ($etape < 10){
                 }
                            
                 else {
-                    print "Votre réponse est incorrect, veuillez recommencer.\n";
+                    print "Votre réponse est incorrecte, veuillez recommencer.\n";
                     $etape = 6;
                 }
             }
             elsif ($reponse eq 2) {
                 # A partir d'ici, nous offrons à l'utilisateur la possibilité de découvrir une courte description
                 # pour les 25 premières fanfictions qui correspondant à pes critères.
-                print "\nDécouvrez les descriptions disponibles pour chaque fanfiction. (Jusqu'au 25 premières.)\n\n";
+                print "\nDécouvrez les descriptions disponibles pour chaque fanfiction (jusqu'aux 25 premières).\n\n";
                 resume ();
                 if ($continuer ==3 ){
                     $etape = 6;
@@ -991,7 +991,7 @@ while ($etape < 10){
                 } 
             }
             else {
-                print "Votre réponse est incorrect, veuillez recommencer.\n";
+                print "Votre réponse est incorrecte, veuillez recommencer.\n";
              
              }
           }            
@@ -1014,12 +1014,12 @@ while ($etape < 10){
         $etape = 0;
     }
     else {
-        print "Votre réponse est incorrect, veuillez recommencer.\n";
+        print "Votre réponse est incorrecte, veuillez recommencer.\n";
     }
    }
         
 
-# Cette fonction s'occupe d'afficher le nombre de résultats restant ou
+# Cette fonction s'occupe d'afficher le nombre de résultats restants ou
 # d'indiquer qu'il n'y a plus de résultats disponibles
 sub  nombre_de_resultats {
     
@@ -1043,7 +1043,7 @@ sub  nombre_de_resultats {
     }   
 }
 
-# Nous rendons disponibles les 25 premières description des URLs ici. 
+# Nous rendons disponibles les 25 premières descriptions des URLs ici. 
 sub resume{
     my $resume;
     my $auteur;
@@ -1107,7 +1107,7 @@ sub resume{
                     last;
                 }
                 elsif($continuer ne 1){
-                   print "Votre choix est incorrect, veuillez recommencer.\n";
+                   print "Votre réponse est incorrecte, veuillez recommencer.\n";
                    $continuer = -1;
                 }
             }
