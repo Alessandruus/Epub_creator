@@ -20,8 +20,8 @@ doivent être dans le même dossier pour que le programme puisse fonctionner.
 ### Prérequis
 
 Il est nécessaire de télécharger un module supplémentaire pour faire fonctionner ce programme.
-Le module LWP::Simple est disponible depuis le site web www.metacpan.org précisément à l'adresse suivante :
-https://metacpan.org/pod/LWP::Simple.
+Le [module LWP::Simple](https://metacpan.org/pod/LWP::Simple) est disponible depuis le site web [metacpan](www.metacpan.org).
+
 
 Pour télécharger le module LWP::Simple suivez les étapes suivantes.
 
@@ -93,9 +93,19 @@ Si le programme est correctement lancé [la page d'accueil](Images/Page d'accuei
 
 Vous pouvez commencer à utiliser le programme.
 
-### Break down into end to end tests
+### Utilisation d'Epub_creator
 
-Explain what these tests test and why
+Le programme propose des choix à l'utilisateur, celui-ci doit répondre en tapant la réponse qu'il désire
+sur l'invite de commande. Par exemple, la première question posée permet à l'utilisateur de choisir 
+comment il désire utiliser le programme soit grâce à une URL de fanfiction qu'il possède déjà, 
+soit en navigant au travers des critères de sélections du site www.fanfiction.net.
+
+L'utilisateur doit donc taper "1" ou "2" selon son choix et puis appuyer sur la touche "enter" 
+pour soumettre son choix au programme. 
+
+L'utilisateur peut aussi, quand cela lui est proposé, écrire "retour" ou "!" pour revenir au choix précédent.
+
+
 
 ```
 Give an example
