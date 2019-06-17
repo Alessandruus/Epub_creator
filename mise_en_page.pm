@@ -206,7 +206,7 @@ sub correction_epub {
     # Elle crée des problèmes une fois convertie en epub.
     # Nous les remplaçons donc par trois ✦ bien centrés
     
-    $page =~ s/<hr size=1 noshade>/<center>✦✦✦<\/center>/g; 
+    $page =~ s/<hr size=1 noshade>/<center>*****<\/center>/g; 
     
     # Pour rajouter des modifications supplémentaires :
     # $page =~ s/LA BALISE PROBLEMATIQUE/soit une balise compatible, soit rien : ''/g;
