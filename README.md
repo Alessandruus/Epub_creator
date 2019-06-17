@@ -19,7 +19,7 @@ doivent être dans le même dossier pour que le programme puisse fonctionner.
 
 ### Prérequis
 
-Avant tout de chose, assurez-vous d'avoir installer Perl 5 sur votre ordinateur. Vous pouvez télécharger Perl 5 depuis : [https://learn.perl.org/installing/](https://learn.perl.org/installing/).
+Avant tout de chose, assurez-vous d'avoir installé Perl 5 sur votre ordinateur. Vous pouvez télécharger Perl 5 depuis : [https://learn.perl.org/installing/](https://learn.perl.org/installing/).
 
 Ensuite, il est nécessaire de télécharger un module supplémentaire pour faire fonctionner ce programme.
 Le [module LWP::Simple](https://metacpan.org/pod/LWP::Simple) est disponible depuis le site web [metacpan](https://www.metacpan.org).
