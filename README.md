@@ -278,5 +278,5 @@ WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
    
 ## Le mot de la fin
 
-![la page d'accueil](Images/bonne_lecture.png                                                                                                                                      
+![la page d'accueil](Images/bonne_lecture.png)                                                                                                                                      
                                                                                                      
