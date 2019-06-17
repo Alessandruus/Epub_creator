@@ -24,29 +24,36 @@ Le module LWP::Simple est disponible depuis le site web www.metacpan.org précis
 https://metacpan.org/pod/LWP::Simple.
 
 Pour télécharger le module LWP::Simple suivez les étapes suivantes.
-Sur Windows : ouvrez l'invite de commande
+
+Sur Windows : ouvrez l'invite de commande 
+(depuis la barre de cherche en bas à gauche tapez cmd et cliquer sur l'application Invite de commande).
+
+Ecrivez sur l'invite de commande la ligne suivante :
 
 ```
 cpan install LWP::Simple
 ```
+Attendez que l'installation ce termine.
 
-### Installing
+Sur mac : ouvrez l'invite de commande (ou Terminal)
+(depuis la barre de recherche en haut à droite tapez Terminal et cliquer sur l'application pour l'ouvrir).
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Ecrivez la ligne suivante :
 
 ```
-until finished
+cpan LWP::Simple
 ```
+Attendez que l'installation ce termine.
 
-End with an example of getting some data out of the system or using it for a little demo
+Sur Linux : ouvrez l'invite de commande via le raccourci Ctrl+Alt+T 
+ou bien cliquer dans vos programme sur l'application Terminal.
+
+Ecrivez la ligne suivante :
+
+```
+cpan LWP::Simple
+```
+Attendez que l'installation ce termine.
 
 ## Running the tests
 
