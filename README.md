@@ -5,7 +5,7 @@ Ce programme écrit en perl assure deux fonctions :
     1) Télécharger une fanfiction depuis le site www.fanfiction.net  directement au format epub depuis l'URL 
     de la fanfiction de votre choix.
 
-    2) Parcourir au travers d'une série de questions les critères de sélections des fanfictions disponibles 
+    2) Parcourir au travers d'une série de questions les critères de sélection des fanfictions disponibles 
     sur le site https://www.fanfiction.net et télécharger la ou les fanfictions correspondant aux choix 
     de l'utilisateur.
 
@@ -13,7 +13,7 @@ Ce programme s'utilise depuis l'invite de commande.
 
 ## Bien démarrer
 
-Télécharger ce projet github dans son ensemble et/ou dézipper l'archive dans un dossier de votre choix. 
+Téléchargez ce projet github dans son ensemble et/ou dézippez l'archive dans un dossier de votre choix. 
 Attention, tous les éléments de l'archive : Epub_creator.pl, navigation.pm, mise_en_page.pm et module_epub.pm 
 doivent être dans le même dossier pour que le programme puisse fonctionner.   
 
@@ -26,36 +26,36 @@ Le [module LWP::Simple](https://metacpan.org/pod/LWP::Simple) est disponible dep
 Pour télécharger le module LWP::Simple suivez les étapes suivantes.
 
 Sur Windows : ouvrez l'invite de commande 
-(depuis la barre de cherche en bas à gauche tapez cmd et cliquer sur l'application Invite de commande).
+(depuis la barre de cherche en bas à gauche tapez cmd et cliquez sur l'application Invite de commande).
 
 Ecrivez sur l'invite de commande la ligne suivante :
 
 ```
 cpan install LWP::Simple
 ```
-Attendez que l'installation ce termine.
+Attendez que l'installation se termine.
 
 
 Sur mac : ouvrez l'invite de commande (ou Terminal)
-(depuis la barre de recherche en haut à droite tapez Terminal et cliquer sur l'application pour l'ouvrir).
+(depuis la barre de recherche en haut à droite tapez Terminal et cliquez sur l'application pour l'ouvrir).
 
 Ecrivez la ligne suivante :
 
 ```
 cpan LWP::Simple
 ```
-Attendez que l'installation ce termine.
+Attendez que l'installation se termine.
 
 
 Sur Linux : ouvrez l'invite de commande via le raccourci Ctrl+Alt+T 
-ou bien cliquer dans vos programme sur l'application Terminal.
+ou bien cliquez dans "vos programmes" sur l'application Terminal.
 
 Ecrivez la ligne suivante :
 
 ```
 cpan LWP::Simple
 ```
-Attendez que l'installation ce termine.
+Attendez que l'installation se termine.
 
 
 ## Lancez Epub_creator
@@ -66,9 +66,9 @@ l'ensemble des éléments nécessaires (Epub_creator.pl, navigation.pm, mise_en_
 Assurez-vous aussi de savoir où se trouve ce dossier dans votre ordinateur, il sera nécessaire 
 depuis l'invite de commande (ou Terminal) d'y accéder.
 
-Nous prendrons pour exemple un dossier créer sur le bureau (depuis windows).
+Nous prendrons pour exemple un dossier créé sur le bureau (depuis windows).
 
-Ouvrez l'invite de commande (ou Terminal) et localiser le dossier en question.
+Ouvrez l'invite de commande (ou Terminal) et localisez le dossier en question.
 
 Dans notre cas, l'invite de commande au démarrage indique :
 
@@ -89,13 +89,13 @@ C:\Users\aless\Desktop>cd Epub_creator-master
 ```
 
 
-Enfin nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
+Enfin, nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
 ```
 C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
 ```
 
 
-Si le programme est correctement lancé ceci doit être apparue :
+Si le programme est correctement lancé, ceci doit être apparu :
 
 ![la page d'accueil](Images/Page_accueil.png) 
 
@@ -105,8 +105,8 @@ Vous pouvez commencer à utiliser le programme.
 
 Le programme propose des choix à l'utilisateur, celui-ci doit répondre en tapant la réponse qu'il désire
 sur l'invite de commande. Par exemple, la première question posée permet à l'utilisateur de choisir 
-comment il désire utiliser le programme soit grâce à une URL de fanfiction qu'il possède déjà, 
-soit en navigant au travers des critères de sélections du site www.fanfiction.net.
+comment il désire utiliser le programme - soit grâce à une URL de fanfiction qu'il possède déjà, 
+soit en navigant au travers de critères de sélection du site www.fanfiction.net.
 
 L'utilisateur doit donc taper "1" ou "2" selon son choix et puis appuyer sur la touche "enter" 
 pour soumettre son choix au programme. 
@@ -114,15 +114,15 @@ pour soumettre son choix au programme.
 L'utilisateur peut aussi, quand cela lui est proposé, écrire "retour" ou "!" pour revenir au choix précédent.
 
 1ère option d'utilisation : 
-L'utilisateur peut copier-coller de la fanfiction de son choix 
-(provenant de [www.fanfiction.net](https://www.fanfiction.net) et en respectant le format suivant : https://www.fanfiction.net/xxxxxxxx/1/nom-de-la-fanfiction-de-votre-choix).
+L'utilisateur peut copier-coller l'URL de la fanfiction de son choix 
+(provenant de [www.fanfiction.net](https://www.fanfiction.net) et respectant le format suivant : https://www.fanfiction.net/xxxxxxxx/1/nom-de-la-fanfiction-de-votre-choix).
 
-Une fois l'URL copié et soumis au programme, Epub_creator télécharge et converti la fanfiction au format epub. 
+Une fois l'URL copiée et soumise au programme, Epub_creator télécharge et convertit la fanfiction au format epub. 
 La/les fanfiction(s) téléchargée(s) sera/seront disponible(s) dans le dossier où se trouve Epub_creator.pl.
 
 2ème option d'utilisation :
-L'utilisateur en choisissant l'option 2 ne possède pas d'URL précis. 
-Les questions suivantes lui seront posées et en fonction des réponses des fanfictions spécifiques seront proposées.
+L'utilisateur en choisissant l'option 2 ne possède pas d'URL précise. 
+Les questions suivantes lui seront posées, et en fonction des réponses, des fanfictions spécifiques seront proposées.
 
     Question 1) Choix de l'univers :
      1 Harry Potter         --     2 Twilight                --    3 Lord of the Rings     --    4 Percy Jackson
@@ -170,7 +170,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       5 Du rating K à T.
       6 Du rating K à K+.
       
-    Question 6) Quelles fanfictions intégrées à la recherche :
+    Question 6) Quelles fanfictions intégrer à la recherche :
       1 Les fanfictions terminées 
       2 Les fanfictions en cours d'écriture 
       3 Toutes les fanfictions disponibles
@@ -182,12 +182,12 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
       
 La sélection se termine ici, l'utilisateur peut choisir :
 
-    - Soit de télécharger les fanfictions directement (en indiquant le nombre de fanfiction qu'il désire 
-    télécharger de 1 au nombre de résultat correspondant à sa recherche).
+    - Soit de télécharger les fanfictions directement (en indiquant le nombre de fanfictions qu'il désire 
+    télécharger, de 1 au nombre du résultat correspondant à sa recherche).
     - Soit de parcourir une sélection des résumés/descriptions des fanfictions correspondant à sa recherche. 
     (Maximum 25)
 
-Enfin il est proposé à l'utilisateur de convertir/rechercher de nouvelle fanfiction s'il le désire.
+Enfin, il est proposé à l'utilisateur de convertir/rechercher de nouvelles fanfictions s'il le désire.
 
 ## Version et futur développement
 
@@ -196,7 +196,7 @@ Problèmes connus et caractéristiques :
     
     - Version fonctionnelle dans 98% des cas, il est possible qu'une fanfiction téléchargée soit vide 
     une fois convertie au format epub. La raison étant que chaque auteur de fanfiction a ses propres conventions.
-    Et que la page HTML ne respecte donc plus les formats standards ce qui empêche au programme de fonctionner
+    Et que la page HTML ne respecte donc plus les formats standards, ce qui empêche le programme de fonctionner
     correctement.
     
     - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques (comme le chinois).
@@ -205,23 +205,23 @@ Problèmes connus et caractéristiques :
     - Si la fanfiction possède un nom avec des caractères inconnus, le nom du fichier téléchargé pourrait 
     être étrange, mais la fanfiction elle-même sera tout à fait lisible.
     
-    - Le programme ne peut se lancer via un executable (.exe) mais exclusivement via l'invite de commande.
+    - Le programme ne peut se lancer via un exécutable (.exe) mais exclusivement via l'invite de commande.
     
-    - Le temps de téléchargement et de conversion qui peut être conséquent dans le cas de longue fanfiction 
+    - Le temps de téléchargement et de conversion peut être conséquent dans le cas de longues fanfictions 
     (de 2 secondes pour une fanfiction composée de un chapitre et 1200 mots et jusqu'à 6 minutes pour 
     une fanfiction de 300 chapitres et 263 336 mots).
     
-Developpement futur :
+Développement futur :
 
     - Créer un site internet du programme actuel. L'idée serait de pouvoir convertir en ligne et télécharger 
     au format epub les fanfictions de notre choix. 
     
-    (Nous avons essayé de le réaliser dans la version 1.0 cependant notre serveur refuse d'exécuter un script perl
+    (Nous avons essayé de le réaliser dans la version 1.0, cependant notre serveur refuse d'exécuter un script perl
     même en passant via putty ou via une page web en autorisant au préalable à l'aide d'un fichier .htaccess 
     l'exécution d'un script cgi ; nous obtenons pour seul résultat une page web avec l'erreur 403 Forbidden.)
     
     - Pour la version invite de commande ou en ligne, ajout d'une barre de progression qui permet de donner 
-    une idée de l'avancée de la conversion. (Nous avons tenté de réaliser cela via un multithread 
+    une idée de l'avancée de la conversion (nous avons tenté de réaliser cela via un multithread, 
     sans grand succès jusqu'ici.)
 
 ## Auteur
