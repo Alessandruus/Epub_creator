@@ -2,11 +2,11 @@
 
 Ce programme écrit en perl assure deux fonctions :
 
-    1) Télécharger une fanfiction depuis le site [www.fanfiction.net](https://www.fanfiction.net) 
+    1) Télécharger une fanfiction depuis le site www.fanfiction.net 
     directement au format epub depuis l'URL de la fanfiction de votre choix.
 
     2) Parcourir au travers d'une série de questions les critères de sélections
-    des fanfictions disponibles sur le site [www.fanfiction.net](https://www.fanfiction.net) et télécharger
+    des fanfictions disponibles sur le site https://www.fanfiction.net et télécharger
     la ou les fanfictions correspondant aux choix de l'utilisateur.
 
 Ce programme s'utilise depuis l'invite de commande.
@@ -193,33 +193,40 @@ Enfin il est proposé à l'utilisateur de convertir/rechercher de nouvelle fanfi
 Epub_creator - version 1.0
 Problèmes connus et caractéristiques :
     
-    - Version fonctionnelle dans 98% des cas, il est possible qu'un fanfiction téléchargée soit vide 
-    une fois convertie au format epub. La raison étant que chaque auteur de fanfiction a ses propres conventions.
-    Et que la page HTML ne respecte donc plus les formats standards ce qui empêche au programme de fonctionne correctement.
+    - Version fonctionnelle dans 98% des cas, il est possible qu'une fanfiction
+    téléchargée soit vide une fois convertie au format epub. La raison étant 
+    que chaque auteur de fanfiction a ses propres conventions. Et que la page HTML
+    ne respecte donc plus les formats standards ce qui empêche au programme 
+    de fonctionner correctement.
     
-    - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques (comme l'arabe ou le chinois).
-    Nous avons donc traduit les noms des langues en anglais.
+    - L'invite de commande ne permet pas d'afficher tous les caractères linguistiques
+    (comme l'arabe ou le chinois). Nous avons donc traduit les noms des langues en anglais.
     
-    - Si la fanfiction possède un nom avec des caractères inconnus, le nom du fichier téléchargé pourrait être étrange
-    mais la fanfiction elle-même sera tout à fait lisible.
+    - Si la fanfiction possède un nom avec des caractères inconnus, 
+    le nom du fichier téléchargé pourrait être étrange, mais la fanfiction elle-même 
+    sera tout à fait lisible.
     
-    - Le programme ne peut se lancer via un executable (.exe) mais exclusivement via l'invite de commande.
+    - Le programme ne peut se lancer via un executable (.exe) mais exclusivement 
+    via l'invite de commande.
     
-    - Le temps de téléchargement et de conversion qui peut être conséquent dans le cas de longue fanfiction
-    (de 2 secondes pour une fanfiction composée de un chapitre et 1200 mots et jusqu'à 6 minutes pour une fanfiction 
-    de 300 chapitres et 263 336 mots).
+    - Le temps de téléchargement et de conversion qui peut être conséquent dans le cas 
+    de longue fanfiction (de 2 secondes pour une fanfiction composée de un chapitre
+    et 1200 mots et jusqu'à 6 minutes pour une fanfiction de 300 chapitres et 263 336 mots).
     
 Developpement futur :
 
     - Créer un site internet du programme actuel. 
-    L'idée serait de pouvoir convertir en ligne et télécharger au format epub les fanfictions de notre choix. 
+    L'idée serait de pouvoir convertir en ligne et télécharger 
+    au format epub les fanfictions de notre choix. 
     
-    (Nous avons essayé de le réaliser dans la version 1.0 cependant notre serveur refuse d'exécuter un script perl
-    même en passant via putty ou via une page web en autorisant au préalable à l'aide d'un fichier .htaccess l'exécution
-    d'un script cgi ; nous obtenons pour seul résultat une page web avec l'erreur 403 Forbidden.)
+    (Nous avons essayé de le réaliser dans la version 1.0 cependant notre serveur
+    refuse d'exécuter un script perl même en passant via putty ou via une page web en autorisant
+    au préalable à l'aide d'un fichier .htaccess l'exécution d'un script cgi ; 
+    nous obtenons pour seul résultat une page web avec l'erreur 403 Forbidden.)
     
-    - Pour la version invite de commande ou en ligne, ajout d'une barre de progression qui permet de donner une idée 
-    de l'avancée de la conversion. (Nous avons tenté de réaliser cela via un multithread sans grand succès jusqu'ici.)
+    - Pour la version invite de commande ou en ligne, ajout d'une barre de progression 
+    qui permet de donner une idée de l'avancée de la conversion. 
+    (Nous avons tenté de réaliser cela via un multithread sans grand succès jusqu'ici.)
 
 ## Auteur
 
@@ -267,8 +274,16 @@ Package.
 IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
 WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-## Acknowledgments
+## Le mot de la fin
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+ /$$$$$$$                                                /$$                       /$$                                         /$$      
+| $$__  $$                                              | $$                      | $$                                        | $$      
+| $$  \ $$  /$$$$$$  /$$$$$$$  /$$$$$$$   /$$$$$$       | $$  /$$$$$$   /$$$$$$$ /$$$$$$   /$$   /$$  /$$$$$$   /$$$$$$       | $$      
+| $$$$$$$  /$$__  $$| $$__  $$| $$__  $$ /$$__  $$      | $$ /$$__  $$ /$$_____/|_  $$_/  | $$  | $$ /$$__  $$ /$$__  $$      | $$      
+| $$__  $$| $$  \ $$| $$  \ $$| $$  \ $$| $$$$$$$$      | $$| $$$$$$$$| $$        | $$    | $$  | $$| $$  \__/| $$$$$$$$      |__/      
+| $$  \ $$| $$  | $$| $$  | $$| $$  | $$| $$_____/      | $$| $$_____/| $$        | $$ /$$| $$  | $$| $$      | $$_____/                
+| $$$$$$$/|  $$$$$$/| $$  | $$| $$  | $$|  $$$$$$$      | $$|  $$$$$$$|  $$$$$$$  |  $$$$/|  $$$$$$/| $$      |  $$$$$$$       /$$      
+|_______/  \______/ |__/  |__/|__/  |__/ \_______/      |__/ \_______/ \_______/   \___/   \______/ |__/       \_______/      |__/      
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                     
