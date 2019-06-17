@@ -1,17 +1,33 @@
 # Epub_creator
 
-One Paragraph of project description goes here
+Ce programme assure deux fonctions :
 
-## Comment bien démarrer
+    1) Télécharger une fanfiction depuis le site www.fanfiction.net 
+    directement au format epub depuis l'URL de la fanfiction de votre choix.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+    2) Parcourir au travers d'une série de questions les critères de sélections
+    des fanfictions disponibles sur le site www.fanfiction.net et télécharger
+    la ou les fanfictions correspondant aux choix de l'utilisateur.
+
+Ce programme s'utilise depuis l'invite de commande.
+
+## Bien démarrer
+
+Télécharger ce projet github dans son ensemble et/ou dézipper l'archive dans un dossier de votre choix. 
+Attention, tous les éléments de l'archive : Epub_creator.pl, navigation.pm, mise_en_page.pm et module_epub.pm 
+doivent être dans le même dossier pour que le programme puisse fonctionner.   
 
 ### Prérequis
 
-What things you need to install the software and how to install them
+Il est nécessaire de télécharger un module supplémentaire pour faire fonctionner ce programme.
+Le module LWP::Simple est disponible depuis le site web www.metacpan.org précisément à l'adresse suivante :
+https://metacpan.org/pod/LWP::Simple.
+
+Pour télécharger le module LWP::Simple suivez les étapes suivantes.
+Sur Windows : ouvrez l'invite de commande
 
 ```
-Give examples
+cpan install LWP::Simple
 ```
 
 ### Installing
@@ -74,9 +90,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Alessandro Cierro** - *LFIAL2630 - Méthodologie du traitement automatique des données textuelles* - Alessandro.Cierro@uclouvain.be
 
-## License
+## Licence
 
-Ce programme est sous "licence artistique" (the Artistic License). - les informations complètes sont disponibles ici : https://dev.perl.org/licenses/artistic.html
+Ce programme est sous "licence artistique" (the Artistic License) - les informations complètes sont disponibles ici : https://dev.perl.org/licenses/artistic.html
 
 Voici des extraits de la licence artistique : 
 
