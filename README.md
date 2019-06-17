@@ -2,12 +2,12 @@
 
 Ce programme écrit en perl assure deux fonctions :
 
-    1) Télécharger une fanfiction depuis le site www.fanfiction.net 
-    directement au format epub depuis l'URL de la fanfiction de votre choix.
+    1) Télécharger une fanfiction depuis le site www.fanfiction.net  directement au format epub depuis l'URL 
+    de la fanfiction de votre choix.
 
-    2) Parcourir au travers d'une série de questions les critères de sélections
-    des fanfictions disponibles sur le site https://www.fanfiction.net et télécharger
-    la ou les fanfictions correspondant aux choix de l'utilisateur.
+    2) Parcourir au travers d'une série de questions les critères de sélections des fanfictions disponibles 
+    sur le site https://www.fanfiction.net et télécharger la ou les fanfictions correspondant aux choix 
+    de l'utilisateur.
 
 Ce programme s'utilise depuis l'invite de commande.
 
