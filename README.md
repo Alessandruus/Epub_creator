@@ -2,11 +2,11 @@
 
 Ce programme écrit en perl assure deux fonctions :
 
-    1) Télécharger une fanfiction depuis le site www.fanfiction.net 
+    1) Télécharger une fanfiction depuis le site [www.fanfiction.net](www.fanfiction.net) 
     directement au format epub depuis l'URL de la fanfiction de votre choix.
 
     2) Parcourir au travers d'une série de questions les critères de sélections
-    des fanfictions disponibles sur le site www.fanfiction.net et télécharger
+    des fanfictions disponibles sur le site [www.fanfiction.net](www.fanfiction.net) et télécharger
     la ou les fanfictions correspondant aux choix de l'utilisateur.
 
 Ce programme s'utilise depuis l'invite de commande.
@@ -105,7 +105,9 @@ pour soumettre son choix au programme.
 
 L'utilisateur peut aussi, quand cela lui est proposé, écrire "retour" ou "!" pour revenir au choix précédent.
 
-
+1ère option d"utilisation : 
+L'utilisateur peut copier-coller de la fanfiction de son choix 
+(provenant de [www.fanfiction.net](www.fanfiction.net) et en respectant les 
 
 ```
 Give an example
