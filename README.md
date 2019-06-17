@@ -130,7 +130,7 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
      9 Hobbit               --    10 Chronicles of Narnia    --   11 Phantom of the Opera  --   12 Gossip Girl
     13 Outsiders            --    14 A song of Ice and Fire  --   15 Vampire Academy       --   16 Divergent
     17 Song of the Lioness  --    18 Inheritance Cycle       --   19 Silmarillion          --   20 Artemis Fowl
-    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --   24 Pride & Prejudice
+    21 Fairy Tales          --    22 Animorphs               --   23 Janet Evanovich       --   24 Pride Prejudice
     25 Gallagher Girls      --    26 Les Misérables          --   27 Bible                 --   28 Sherlock Holmes
     29 Alex Rider           --    30 Clique                  --   31 Vampires              --   32 Fifty Shades
     
@@ -163,12 +163,12 @@ Les questions suivantes lui seront posées et en fonction des réponses des fanf
      20 Amitié              --    21 Général
 
     Question 5) Choix du [Rating](https://www.fictionratings.com/) de la fanfiction :
-      1 Rating K  : convient à tous les âges.";
-      2 Rating K+ : convient à partir de 9 ans et +.";
-      3 Rating T  : convient à partir de 13 ans et +.";
-      4 Rating M  : convient à partir de 16 ans et +.";
-      5 Du rating K à T.";
-      6 Du rating K à K+.";
+      1 Rating K  : convient à tous les âges.
+      2 Rating K+ : convient à partir de 9 ans et +.
+      3 Rating T  : convient à partir de 13 ans et +.
+      4 Rating M  : convient à partir de 16 ans et +.
+      5 Du rating K à T.
+      6 Du rating K à K+.
       
     Question 6) Quelles fanfictions intégrées à la recherche :
       1 Les fanfictions terminées 
