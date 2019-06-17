@@ -55,13 +55,43 @@ cpan LWP::Simple
 ```
 Attendez que l'installation ce termine.
 
-## Lancez et utiliser Epub_creator
+## Lancez Epub_creator
 
-Explain how to run the automated tests for this system
+Avant de lancer le programme assurez-vous d'avoir dans le dossier de votre choix 
+l'ensemble des éléments nécessaires (Epub_creator.pl, navigation.pm, mise_en_page.pm et module_epub.pm).
 
-[alt text](https://raw.githubusercontent.com/Alessandruus/Epub_creator/master/Images/Page%20d'accueil.PNG?token=AMMBTV4XZVCWVVQXORFPM3C5A56NC)
+Assurez-vous aussi de savoir où se trouve ce dossier dans votre ordinateur, il sera nécessaire 
+depuis l'invite de commande (ou Terminal) d'y accéder.
 
+Nous prendrons pour exemple un dossier créer sur le bureau (depuis windows).
 
+Ouvrez l'invite de commande (ou Terminal) et localiser le dossier en question.
+
+Dans notre cas, l'invite de commande au démarrage indique :
+
+```
+C:\Users\aless>
+```
+Pour trouver le dossier en question, nous utiliserons la commande cd (pour change directory).
+
+Nous écrivons : cd desktop
+```
+C:\Users\aless>cd desktop
+```
+
+Puis : cd Epub_creator-master (nom de notre archive dézippée).
+```
+C:\Users\aless\Desktop>cd Epub_creator-master
+```
+
+Enfin nous pouvons lancer le programme avec la fonction : perl Epub_creator.pl
+```
+C:\Users\aless\Desktop\Epub_creator-master>perl Epub_creator.pl
+```
+
+Si le programme est correctement lancé [la page d'accueil](https://raw.githubusercontent.com/Alessandruus/Epub_creator/master/Images/Page%20d'accueil.PNG?token=AMMBTV4XZVCWVVQXORFPM3C5A56NC) doit être apparue.
+
+Vous pouvez commencer à utiliser le programme.
 
 ### Break down into end to end tests
 
