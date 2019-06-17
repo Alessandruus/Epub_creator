@@ -1,6 +1,6 @@
 # Epub_creator
 
-Ce programme assure deux fonctions :
+Ce programme écrit en perl assure deux fonctions :
 
     1) Télécharger une fanfiction depuis le site www.fanfiction.net 
     directement au format epub depuis l'URL de la fanfiction de votre choix.
@@ -55,7 +55,7 @@ cpan LWP::Simple
 ```
 Attendez que l'installation ce termine.
 
-## Running the tests
+## Lancez et utiliser Epub_creator
 
 Explain how to run the automated tests for this system
 
