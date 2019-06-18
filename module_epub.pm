@@ -289,9 +289,8 @@ sub get_all_epub {
     
    #ici URL complète récupérée depuis la navigation  (choix de l'utilisateur)   
    for ( my$i=1; $i<=$nombreeffectif+1; $i++){
-   my $page = get("$URL".'&p='."$i"); 
-   my @lignesURLgeneral = split (/[\r\n]+/, $page);
-   
+    my $page = get("$URL".'&p='."$i"); 
+    my @lignesURLgeneral = split (/[\r\n]+/, $page);
    
    foreach my $ligne (@lignesURLgeneral) {
      if ($ligne =~ /<a  class=stitle href="(\/s\/.+?)">/){
@@ -303,7 +302,7 @@ sub get_all_epub {
           $k++;
           } 
          }
-      }        
+      }
    }
    # Ici le tableau @urls possède chacun des liens vers les fanfictions récoltées.
    # Ce qui nous permet de répéter l'action de téléchargement par fanfiction.   
@@ -333,8 +332,15 @@ sub get_all_epub {
     my $n = 0;
     my $continuer = 1;
     
+    $url =~ /\/s\/(.+?)\/[0-9]+\/(.+)/;   
+            my $premierepartie = $1;             
+            my $deuxiemepartie = $2;
+   
+    
     while ($n < $nbdechapitres){
-       my $page = get("$url");
+       my $page = get('https://www.fanfiction.net/s/'."$premierepartie".'/'.($n+1).'/'."$deuxiemepartie"); # ici se trouvait le petit erreur
+                                                                                                           # Nous avons oublié de demander une mise à jour de l'url.
+                                                                                                           # Ce qui avait pour effet de recréer le même chapitre en boucle.
     
        mise_en_page::correction_epub ($page);    # Nous corrigeons ici les irrégularités ou autres balises non reconnues par l'epub.
    
@@ -406,7 +412,7 @@ sub get_all_epub {
         }
      
         for(my $i=$indiceInitial; $i<=$indiceFinal; $i++){
-           $chapitres[$n].= $lignes[$i];
+           $chapitres[$n] .= $lignes[$i];
         }          
         $n++;  # Nous incrémentons le nombre de chapitres de 1.
    }
